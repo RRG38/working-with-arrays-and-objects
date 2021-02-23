@@ -59,14 +59,14 @@ function greeting( obj ) {
 */
 
 //Code Here
-const obj = {
+var obj = {
   utah: 5,
   california: 10,
   texas: 15,
   arizona: 20
 }
 
-function totalPopulation ( obj ) {
+function totalPopulation (obj) {
   const {utah} = obj;
   const {california} = obj;
   const {texas} = obj;
@@ -88,12 +88,12 @@ function totalPopulation ( obj ) {
 */
 
 //Code Here
-const obj = {
+var obj = {
   carb: 'bread',
   fat: 'butter',
   protein: 'chicken' 
 }
-function ingredients ( obj ) {
+function ingredients (obj) {
   const {carb} = obj;
   const {fat} = obj;
   const {protein} = obj;
@@ -118,6 +118,16 @@ function ingredients ( obj ) {
 
 //Code Here
 
+var obj = {
+  first: 4,
+  second: 5,
+  third: 3
+}
+
+function largeNumbers({first, second, third}) {
+  return third;
+}
+
 
 
 ////////// PROBLEM 6 //////////
@@ -129,5 +139,13 @@ function ingredients ( obj ) {
 */
 
 //Code Here
+var obj = {
+  a: [1, 2, 3],
+  b: [4, 5, 6],
+  c: [7, 8, 9, 10]
+}
 
+function numberGroups({a, b, c}) {
+  return c;
+}
 
